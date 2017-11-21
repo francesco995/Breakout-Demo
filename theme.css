@@ -1,0 +1,50 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height:100%;
+    background-color: darkgrey;
+}
+
+.Container__title {
+    font-size: 8em;
+    font-weight: bold;
+    color: white;
+}
+
+.Container__userData{
+    display: flex;
+    font-size: 4em;
+}
+
+.Container__content{
+
+}
+
+.Container__buttons{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.TextBox{
+    text-align: center;
+    font-size: 3pc;
+    width: 30pc;
+    height: 3pc;
+}
+
+.Button{
+    width: 12pc;
+    height: 3pc;
+}

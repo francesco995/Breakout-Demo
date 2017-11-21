@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+    <link rel="stylesheet" type="text/css" href="theme.css">
+
+
+</head>
+<body>
+
+    <div class="Container">
+        <div class="Container__title">
+            Breakout!
+        </div>
+
+        <div class="Container__userData">
+
+            <input class="TextBox" id="txtPlayerName" type="text" placeholder="Enter your name" oninput="ctrl.trackPlayerChange()">
+
+        </div>
+
+        <div class="Container__buttons">
+            <input id="btnStart" class="Button" type="button" value="Start!" onclick="ctrl.startGame()">
+            <input class="Button" type="button" value="Leaderboard">
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="IndexController.js"></script>
+
+</body>
+
+</html>

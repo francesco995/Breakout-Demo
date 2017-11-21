@@ -1,0 +1,36 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Game{
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+.Game__header{
+    width:100%;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    outline: 1px solid blue;
+}
+
+.Game__playerName{
+    font-size: 3em;
+    color: white;
+}
+
+.Game__playerScore{
+    font-size: 3em;
+    color: white;
+}
+
+.Game__content{
+    outline: 1px solid red;
+    flex-grow: 1;
+    position: relative;
+}
